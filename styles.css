@@ -91,7 +91,7 @@ body{
     width: 300px;
 }
 
-a{
+.row a{
     text-decoration: none;
     color: black;
 }
@@ -99,4 +99,25 @@ a{
 .container p:hover{
     background-color: #e7b81d;
     cursor: pointer;
+}
+
+.container p:active{
+    background-color: #f7ce48;
+}
+
+footer{
+    font-size: 12px;
+    color: #2a75bb;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #2a75bb;
+    
+}
+
+footer small{
+    font-size: 9px;
 }
