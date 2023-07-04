@@ -16,7 +16,7 @@
 body{
     margin:0;
     font-family: 'Poke';
-    font-size: larger;
+    font-size: medium;
     background-color: #f5f6f7;
 }
 
@@ -24,9 +24,11 @@ body{
     text-align: center;
     text-transform: uppercase;
     padding: 32px;
-    background-color: #f1f1f1;
+    background-color: #2a75bb;
     text-align: center;
+    color:white;
     border-bottom: 4px solid #f7ce48;
+    line-height: 1.5;
 }
 
 .row{
@@ -36,7 +38,7 @@ body{
     justify-content: center;
     align-items: center;
     gap:16px;
-    max-width: 1400px;
+    max-width: 1200px;
     margin:0 auto;
     padding:20px 10px;
 }
@@ -56,7 +58,7 @@ body{
     position: relative;
 }
 
-.container p{
+/* .container p{
     position: absolute;
     top: 87.6%;
     left: 50%;
@@ -65,10 +67,26 @@ body{
     font-size: 20px;
     background-color: #f7ce48;
     padding: 10px 115px;
+    max-width: 315px;
+} */
+
+.container p{
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #f7ce48;
+    /* padding: 10px 115px; */
+    padding-top: 10px;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    border-radius: 0 0 30px 30px;
 }
 
 .row::after{
     content: "";
-    width: 500px;
+    width: 300px;
 }
-
