@@ -10,12 +10,13 @@
 @font-face {
   font-family: "Poke";
   src: url(fonts/PokemonGb-RAeo.ttf);
+  font-display: swap;
 }
 
 body {
   margin: 0;
   font-family: "Poke", sans-serif;
-  font-size: medium;
+  font-weight: 400;
   background-color: #f5f6f7;
 }
 
@@ -99,6 +100,11 @@ body {
 
 .container p:active {
   background-color: #f7ce48;
+}
+
+.container img{
+    height: auto;
+    width: 100%;
 }
 
 footer {
